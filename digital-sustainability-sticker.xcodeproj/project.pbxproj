@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5217E0921A9EB87008F6847 /* digital-sustainability-sticker StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A5217E0821A9EB87008F6847 /* digital-sustainability-sticker StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A5217E0D21A9EB87008F6847 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = A5217E0C21A9EB87008F6847 /* Stickers.xcstickers */; };
+		A5217E0E21A9EB87008F6847 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = A5217E0C21A9EB87008F6847 /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5217E0A21A9EB87008F6847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5217DFE21A9EB87008F6847 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5217E0721A9EB87008F6847;
+			remoteInfo = "digital-sustainability-sticker StickerPackExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5217E1421A9EB87008F6847 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A5217E0921A9EB87008F6847 /* digital-sustainability-sticker StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A5217E0421A9EB87008F6847 /* digital-sustainability-sticker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "digital-sustainability-sticker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5217E0821A9EB87008F6847 /* digital-sustainability-sticker StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "digital-sustainability-sticker StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5217E0C21A9EB87008F6847 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "digital-sustainability-sticker StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A5217DFD21A9EB87008F6847 = {
+			isa = PBXGroup;
+			children = (
+				A5217E0C21A9EB87008F6847 /* Stickers.xcstickers */,
+				A5217E0521A9EB87008F6847 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5217E0521A9EB87008F6847 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5217E0421A9EB87008F6847 /* digital-sustainability-sticker.app */,
+				A5217E0821A9EB87008F6847 /* digital-sustainability-sticker StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5217E0321A9EB87008F6847 /* digital-sustainability-sticker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5217E1521A9EB87008F6847 /* Build configuration list for PBXNativeTarget "digital-sustainability-sticker" */;
+			buildPhases = (
+				A5217E0221A9EB87008F6847 /* Resources */,
+				A5217E1421A9EB87008F6847 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5217E0B21A9EB87008F6847 /* PBXTargetDependency */,
+			);
+			name = "digital-sustainability-sticker";
+			productName = "digital-sustainability-sticker";
+			productReference = A5217E0421A9EB87008F6847 /* digital-sustainability-sticker.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		A5217E0721A9EB87008F6847 /* digital-sustainability-sticker StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5217E1121A9EB87008F6847 /* Build configuration list for PBXNativeTarget "digital-sustainability-sticker StickerPackExtension" */;
+			buildPhases = (
+				A5217E0621A9EB87008F6847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "digital-sustainability-sticker StickerPackExtension";
+			productName = "digital-sustainability-sticker StickerPackExtension";
+			productReference = A5217E0821A9EB87008F6847 /* digital-sustainability-sticker StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5217DFE21A9EB87008F6847 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "open-co.de";
+				TargetAttributes = {
+					A5217E0321A9EB87008F6847 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A5217E0721A9EB87008F6847 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A5217E0121A9EB87008F6847 /* Build configuration list for PBXProject "digital-sustainability-sticker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5217DFD21A9EB87008F6847;
+			productRefGroup = A5217E0521A9EB87008F6847 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5217E0321A9EB87008F6847 /* digital-sustainability-sticker */,
+				A5217E0721A9EB87008F6847 /* digital-sustainability-sticker StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5217E0221A9EB87008F6847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5217E0E21A9EB87008F6847 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5217E0621A9EB87008F6847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5217E0D21A9EB87008F6847 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5217E0B21A9EB87008F6847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5217E0721A9EB87008F6847 /* digital-sustainability-sticker StickerPackExtension */;
+			targetProxy = A5217E0A21A9EB87008F6847 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A5217E0F21A9EB87008F6847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5217E1021A9EB87008F6847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5217E1221A9EB87008F6847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6464FA8923;
+				INFOPLIST_FILE = "digital-sustainability-sticker StickerPackExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.open-co.de.digital-sustainability-sticker.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5217E1321A9EB87008F6847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6464FA8923;
+				INFOPLIST_FILE = "digital-sustainability-sticker StickerPackExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.open-co.de.digital-sustainability-sticker.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5217E1621A9EB87008F6847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6464FA8923;
+				INFOPLIST_FILE = "digital-sustainability-sticker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.open-co.de.digital-sustainability-sticker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5217E1721A9EB87008F6847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6464FA8923;
+				INFOPLIST_FILE = "digital-sustainability-sticker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.open-co.de.digital-sustainability-sticker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5217E0121A9EB87008F6847 /* Build configuration list for PBXProject "digital-sustainability-sticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5217E0F21A9EB87008F6847 /* Debug */,
+				A5217E1021A9EB87008F6847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5217E1121A9EB87008F6847 /* Build configuration list for PBXNativeTarget "digital-sustainability-sticker StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5217E1221A9EB87008F6847 /* Debug */,
+				A5217E1321A9EB87008F6847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5217E1521A9EB87008F6847 /* Build configuration list for PBXNativeTarget "digital-sustainability-sticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5217E1621A9EB87008F6847 /* Debug */,
+				A5217E1721A9EB87008F6847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5217DFE21A9EB87008F6847 /* Project object */;
+}

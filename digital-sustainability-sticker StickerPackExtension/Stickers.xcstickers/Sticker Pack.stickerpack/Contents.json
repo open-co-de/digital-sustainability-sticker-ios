@@ -1,0 +1,65 @@
+{
+  "stickers" : [
+    {
+      "filename" : "contribution-to-sustainable-development.sticker"
+    },
+    {
+      "filename" : "distributed-location.sticker"
+    },
+    {
+      "filename" : "shared-tacit-knowledge.sticker"
+    },
+    {
+      "filename" : "participatory-culture.sticker"
+    },
+    {
+      "filename" : "elaborateness.sticker"
+    },
+    {
+      "filename" : "good-governance.sticker"
+    },
+    {
+      "filename" : "open-internet.sticker"
+    },
+    {
+      "filename" : "open-source.sticker"
+    },
+    {
+      "filename" : "semantic-information.sticker"
+    },
+    {
+      "filename" : "open-access.sticker"
+    },
+    {
+      "filename" : "open-content.sticker"
+    },
+    {
+      "filename" : "open-government-data.sticker"
+    },
+    {
+      "filename" : "open-licensing-regimes.sticker"
+    },
+    {
+      "filename" : "open-standards.sticker"
+    },
+    {
+      "filename" : "transparent-structures.sticker"
+    },
+    {
+      "filename" : "diversified-funding.sticker"
+    },
+    {
+      "filename" : "digital-sustainability.sticker"
+    },
+    {
+      "filename" : "dina.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}
